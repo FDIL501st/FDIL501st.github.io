@@ -1,7 +1,7 @@
 const NavBar = () => {
 	return (
 		// TODO: Actually implement a navigation bar
-		<h1>Hello from React!</h1>
+		<h5>Built this page with React!</h5>
 	)
 }
 

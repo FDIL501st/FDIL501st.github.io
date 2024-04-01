@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import NavBar from "./NavBar";
+import ProjectLink from './ProjectLink';
 
 function App() {
   return (
@@ -10,21 +11,22 @@ function App() {
         <h1>Fadil's Portfolio</h1>
         <p>I'm hosted with GitHub Pages.</p>
 
-        <h3>
+        <h2>
           <a href="https://github.com/FDIL501st">My GitHub</a>
-        </h3>
+        </h2>
         <br/><br/>
 
         <h3>Projects worked on</h3>
         {/*// <!-- Links to projects I want to showcase -->*/}
-        <a href="https://github.com/FDIL501st/Phantom-Forces-damage-ranges-calculator">Phantom Forces Ranges Calculator
-          (Python)</a>
-        <br/><br/>
+        <ProjectLink link={"https://github.com/FDIL501st/Phantom-Forces-damage-ranges-calculator"} 
+          display_name={"Phantom Forces Ranges Calculator(Python)"} />
 
-        <a href="https://github.com/FDIL501st/ENSF480-GR31-TermProject">Movie Ticket booking system (Java)</a>
-        <br/><br/>
+        <ProjectLink link={"https://github.com/FDIL501st/ENSF480-GR31-TermProject"} 
+          display_name={"Movie Ticket booking system (Java)"} />
 
-        <a href="https://github.com/FDIL501st/ENCM511_gr6_Project-Codes">Small PIC32 projects</a>
+        <ProjectLink link={"https://github.com/FDIL501st/ENCM511_gr6_Project-Codes"} 
+          display_name={"Small PIC32 projects (C)"} />
+
       </div>
   );
 }
