@@ -1,7 +1,8 @@
 const NavBar = () => {
 	return (
-		// TODO: Actually implement a navigation bar
-		<h5>Built this page with React!</h5>
+		<div class="w3-bar w3-black">
+			<a href="/" class="w3-bar-item w3-button w3-mobile">Home</a>
+		</div>
 	)
 }
 
