@@ -1,4 +1,5 @@
 import ProjectLink from './ProjectLink';
+import '../w3.css'
 
 const AllProjects = () => {
     return (

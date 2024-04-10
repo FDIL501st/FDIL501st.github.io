@@ -1,4 +1,4 @@
-import "./w3.css"
+import '../w3.css'
 
 const ProjectLink = ({link, display_name, description}) => {
     return (
