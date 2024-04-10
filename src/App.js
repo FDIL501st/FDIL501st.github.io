@@ -1,6 +1,8 @@
 import './App.css';
 import NavBar from "./NavBar";
 import AllProjects from './AllProjects';
+import Scroll from './Scroll/Scroll';
+import Footer from './Footer';
 
 function App() {
     return (
@@ -25,9 +27,8 @@ function App() {
                 </div>
                 <div className="w3-col m1 w3-container"/>
             </div>
-
-            
-            
+            <Footer />
+            <Scroll />
         </div>
     );
 }
