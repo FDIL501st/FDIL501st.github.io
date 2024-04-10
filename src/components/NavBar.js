@@ -1,3 +1,5 @@
+import '../w3.css'
+
 const NavBar = () => {
 	return (
 		<div class="w3-bar w3-black" id="nav">

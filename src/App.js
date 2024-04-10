@@ -1,8 +1,8 @@
 import './App.css';
-import NavBar from "./NavBar";
-import AllProjects from './AllProjects';
-import Scroll from './Scroll/Scroll';
-import Footer from './Footer';
+import NavBar from "./components/NavBar";
+import AllProjects from './components/AllProjects';
+import Scroll from './components/Scroll/Scroll';
+import Footer from './components/Footer';
 
 function App() {
     return (

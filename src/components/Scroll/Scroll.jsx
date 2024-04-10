@@ -1,5 +1,5 @@
 import './Scroll.css';
-
+import '../../w3.css'
 
 const toTop = () => {
     const top = document.getElementById("nav")
