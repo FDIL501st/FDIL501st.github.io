@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <>
             <h1>Fadil's Portfolio</h1>
-            <p>I'm hosted with GitHub Pages.</p>
 
             <h2>
                 <a href="https://github.com/FDIL501st">My GitHub</a>

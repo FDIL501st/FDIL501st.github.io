@@ -36,6 +36,15 @@ const AllProjects = () => {
                     The MySQL database exists on google cloud using credits, \
                     so the site will not be working as I ran out of credits to keep the database isntance running."}
             />
+
+            <ProjectLink link={"https://github.com/FDIL501st/501st-bot"}
+                display_name={"A discord bot (Python)"}
+                description={"I created a discord bot using nextcord for one of the server I'm part of. \
+                    Most of the commands aren't anything special, copied from examples, \
+                    as the specific purpose of the bot no longer exists. \
+                    However, I recreated the bot as now attempting to add a calculator using discord buttons. \
+                    "}
+            />
         </>
     )
 }
