@@ -5,6 +5,8 @@ import Scroll from "../components/Scroll/Scroll"
 
 import { Outlet } from "react-router-dom";
 
+// not used anymore cause changed to hashrouter instead
+
 const Layout = () => {
   return (
     <div className="App">
