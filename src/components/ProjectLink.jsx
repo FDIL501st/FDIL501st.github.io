@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../w3.css'
 
-const ProjectLink = ({link, display_name, description}) => {
+const ProjectLink = ({children, link, display_name}) => {
     const [show, setShow] = useState(false)
 
 
@@ -11,8 +11,7 @@ const ProjectLink = ({link, display_name, description}) => {
         >
             <a href={link} className="w3-hover-text-indigo">{display_name}</a>
 
-            {show && <p>{description}</p>}
-            
+            {show && children}
         </div>
     )
 }
