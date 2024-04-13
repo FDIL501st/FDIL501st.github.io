@@ -9,6 +9,12 @@ button.Scroll {
     border: 2px solid rgb(0, 0, 0);
     z-index: 99;
     /* avoid overlap with footer or other elements on page*/
-    cursor: pointer;
+
+    /* custom padding to make circle compact
+    /* font-size: medium; */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
