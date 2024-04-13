@@ -11,7 +11,7 @@ const Home = () => {
             </h2>
             <br/><br/>
             
-            <div className="w3-row">
+            <div className="w3-row w3-pale-blue">
                 <div className="w3-col m1 w3-container"/>
 
                 <div className="w3-col m10">
