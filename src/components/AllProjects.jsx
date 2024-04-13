@@ -1,5 +1,6 @@
 import ProjectLink from './ProjectLink';
 import bot from '../images/discord_bot.png'
+import pet_pursuit_home from '../images/pet_pursuit_home.png'
 import '../w3.css'
 
 const AllProjects = () => {
@@ -34,7 +35,8 @@ const AllProjects = () => {
             <ProjectLink link={"https://github.com/FDIL501st/pet-adoption-401"}
                 display_name={"Pet adoption Site (Next.Js)"}
             >
-                <p>In a course group project, we made a site that 
+                <p>
+                    In a course group project, we made a site that 
                     can be used to browse pets and book an appointment to view them. 
                     We used fake pet data for showcasing the site. 
                     I worked on the backend. This included creating the MySQL database from the requirements we 
@@ -42,6 +44,7 @@ const AllProjects = () => {
                     The MySQL database exists on google cloud using credits, 
                     so the site will not be working as I ran out of credits to keep the database isntance running.
                 </p>
+                <img src={pet_pursuit_home} alt="Pet Pursuit Home Page" style={{width:"100%"}}/>
             </ProjectLink>
 
             <ProjectLink link={"https://github.com/FDIL501st/501st-bot"}
