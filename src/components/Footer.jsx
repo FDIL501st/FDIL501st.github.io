@@ -1,5 +1,5 @@
 import '../w3.css'
-import { footer_id } from './shared/constants'
+import { footer_id } from '../shared/id'
 
 
 const Footer = () => {

@@ -6,6 +6,8 @@ import Error404 from "./pages/404"
 import NavBar from "./components/NavBar";
 import Scroll from "./components/Scroll/Scroll";
 import Footer from "./components/Footer";
+import About from './pages/About';
+import { home, about } from './shared/path';
 
 function App() {
     return (
@@ -13,7 +15,8 @@ function App() {
             <NavBar />
 
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path={home} element={<Home/>}/>
+                <Route path={about} element={<About/>}/>
                 <Route path="*" element={<Error404/>}/>
             </Routes>
             

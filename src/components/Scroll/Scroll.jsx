@@ -1,6 +1,6 @@
 import './Scroll.css';
 import '../../w3.css'
-import { nav_id, footer_id } from '../shared/constants';
+import { nav_id, footer_id } from '../../shared/id';
 
 // scroll functions assume that navbar and footer exists on the page 
 // which it doest for all pages as that is how template is set up
