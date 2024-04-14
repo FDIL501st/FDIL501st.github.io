@@ -19,13 +19,18 @@ const Scroll = () => {
 
     return (
         <div className="Scroll">
-            <button className="w3-button w3-circle Scroll" onClick={toTop}>
-                &uarr;
-            </button>
-
-            <button className="w3-button w3-circle Scroll" onClick={toBottom}>
-                &darr;
-            </button>
+            <div>
+                <button className="w3-button w3-circle Scroll" onClick={toTop}>
+                    &uarr;
+                </button>
+            </div>
+            
+            <div>
+                <button className="w3-button w3-circle Scroll" onClick={toBottom}>
+                    &darr;
+                </button>
+            </div>
+            
         </div>
     )
 }

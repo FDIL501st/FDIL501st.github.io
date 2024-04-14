@@ -20,11 +20,8 @@ function App() {
                 <Route path="*" element={<Error404/>}/>
             </Routes>
             
-            <Footer />
             <Scroll />
-            {/* Scroll must come last so it stays on top of everything else 
-            important to keep being to interact no mater 
-            what elements are also taking bottom right of page*/}
+            <Footer />
         </div>
     );
 }
