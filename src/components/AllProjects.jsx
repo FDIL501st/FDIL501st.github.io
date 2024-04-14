@@ -1,6 +1,8 @@
 import ProjectLink from './ProjectLink';
 import bot from '../images/discord_bot.png'
 import pet_pursuit_home from '../images/pet_pursuit_home.png'
+import pf_calc from '../images/pf_calc.png'
+import pf_calc_result from '../images/pf_calc_result.png'
 import '../w3.css'
 
 const AllProjects = () => {
@@ -9,8 +11,12 @@ const AllProjects = () => {
             <ProjectLink link={"https://github.com/FDIL501st/Phantom-Forces-damage-ranges-calculator"}
                 display_name={"Phantom Forces Ranges Calculator(Python)"}
             >
-                <p>A GUI app to help calculate hits to kills at ranges of guns or grenades in the Roblox  
-                    shooter Phantom Forces.</p>
+                <p>
+                    A GUI app to help calculate hits to kills at ranges of guns or grenades in the Roblox  
+                    shooter Phantom Forces. Used tkinter to make the GUI.
+                </p>
+                <img src={pf_calc} alt="Calculator menu" />
+                <img src={pf_calc_result} alt="Calculator result" />
             </ProjectLink>
 
             <ProjectLink link={"https://github.com/FDIL501st/ENSF480-GR31-TermProject"}
