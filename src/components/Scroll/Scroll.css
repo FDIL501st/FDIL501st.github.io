@@ -6,15 +6,24 @@ div.Scroll {
 }
 
 button.Scroll {
-    border: 2px solid rgb(0, 0, 0);
+    /* change buttons to be on top of each other rather than beside each other*/
+    display: block;
+    border: 2px solid black;
+    /* color: black; */
     z-index: 99;
     /* avoid overlap with footer or other elements on page*/
 
-    /* custom padding to make circle compact
-    /* font-size: medium; */
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 8px;
-    padding-right: 8px;
+    /* custom padding to make circle compact */
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* the padding directions seems to also rotate due to rotation of element 
+    so these are the values we get with are some trial and error for this font-size */
+
+    /* Make borders/elements not overlap */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 

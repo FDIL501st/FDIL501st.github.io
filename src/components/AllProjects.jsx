@@ -15,8 +15,8 @@ const AllProjects = () => {
                     A GUI app to help calculate hits to kills at ranges of guns or grenades in the Roblox  
                     shooter Phantom Forces. Used tkinter to make the GUI.
                 </p>
-                <img src={pf_calc} alt="Calculator menu" />
-                <img src={pf_calc_result} alt="Calculator result" />
+                <img src={pf_calc} alt="Calculator menu" style={{width: "60%"}}/>
+                <img src={pf_calc_result} alt="Calculator result" style={{width: "60%"}}/>
             </ProjectLink>
 
             <ProjectLink link={"https://github.com/FDIL501st/ENSF480-GR31-TermProject"}
@@ -62,7 +62,7 @@ const AllProjects = () => {
                     as the specific purpose of the bot no longer exists. 
                     However, I recreated the bot as now attempting to add a calculator using discord buttons.
                 </p>
-                <img src={bot} alt='Discord bot calculator command' />
+                <img src={bot} alt='Discord bot calculator command' style={{width: "50%"}}/>
                 </ProjectLink>
         </>
     )

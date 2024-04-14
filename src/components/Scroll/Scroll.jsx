@@ -19,17 +19,19 @@ const Scroll = () => {
 
     return (
         <div className="Scroll">
-            <div>
-                <button className="w3-button w3-circle Scroll" onClick={toTop}>
-                    &uarr;
-                </button>
-            </div>
+            <button className=" Scroll w3-button w3-circle" 
+            onClick={toTop}
+            // rotate to make > point up
+            style={{rotate: "-90deg", WebkitTransform: "-90deg"}}>
+                &gt;
+            </button>
             
-            <div>
-                <button className="w3-button w3-circle Scroll" onClick={toBottom}>
-                    &darr;
-                </button>
-            </div>
+            <button className=" Scroll down w3-button w3-circle" 
+            onClick={toBottom}
+            // rotate to make > point down
+            style={{rotate: "90deg", WebkitTransform: "90deg"}}>
+                &gt;
+            </button>
             
         </div>
     )
