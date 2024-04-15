@@ -3,6 +3,7 @@ import bot from '../images/discord_bot.png'
 import pet_pursuit_home from '../images/pet_pursuit_home.png'
 import pf_calc from '../images/pf_calc.png'
 import pf_calc_result from '../images/pf_calc_result.png'
+import rock_paper_scissor from '../images/rock_paper_scissors.png'
 import '../w3.css'
 
 const AllProjects = () => {
@@ -63,7 +64,17 @@ const AllProjects = () => {
                     However, I recreated the bot as now attempting to add a calculator using discord buttons.
                 </p>
                 <img src={bot} alt='Discord bot calculator command' style={{width: "50%"}}/>
-                </ProjectLink>
+            </ProjectLink>
+
+            <ProjectLink link={"https://github.com/FDIL501st/RockPaperScissor"}
+                display_name={"Rock Paper Scissor (Python)"}
+            >
+                <p>
+                    A tkinter app that lets you play rock paper scissors against a CPU.
+                    This is a very simple app, as I was using this project to learn tkinter.
+                </p>
+                <img src={rock_paper_scissor} alt='The game interface' style={{width: "60%"}}/>
+            </ProjectLink>
         </>
     )
 }
