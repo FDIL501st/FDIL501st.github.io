@@ -10,10 +10,9 @@ const ProjectLink = ({children, link, display_name}) => {
             
             {/* Acts like a dropdown, click on button to display content
              button text is a link to the project */}
-            <button className="w3-hover-light-grey w3-button w3-round-large w3-border"
+            <button className="w3-hover-pale-green w3-hover-shadow w3-button w3-border-bottom"
                     onClick={() => {setShow(prevValue => !prevValue)}}
-                    style={{width: "100%"}}
-                    >
+                    style={{width: "100%"}}>
 
                 <a href={link} className="w3-hover-text-indigo">{display_name}</a>
             </button>
