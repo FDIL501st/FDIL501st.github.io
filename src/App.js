@@ -11,7 +11,7 @@ import { home, about } from './shared/path';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App w3-pale-blue">
             <NavBar />
 
             <Routes>
