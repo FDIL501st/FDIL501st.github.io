@@ -4,6 +4,9 @@ import pet_pursuit_home from '../images/pet_pursuit_home.png'
 import pf_calc from '../images/pf_calc.png'
 import pf_calc_result from '../images/pf_calc_result.png'
 import rock_paper_scissor from '../images/rock_paper_scissors.png'
+import invoicify_dashboard from '../images/invoicify_dashboard.png'
+import invoicify_create from '../images/invoicify_create_invoice_60_zoom.png'
+import invoicify_view from '../images/invoicify_view_invoice_70_zoom.png'
 import '../w3.css'
 
 const AllProjects = () => {
@@ -39,6 +42,24 @@ const AllProjects = () => {
                 </p>
             </ProjectLink>
 
+            <ProjectLink link={"https://github.com/FDIL501st/cpsc471finalproject"}
+                display_name={"Invoicify (React)"}
+            >
+                <p>
+                    A course group project in which we made an online tool for businesses to create invoices
+                    for their clients. The vision was to allow for clients to view and pay invoices without needing
+                    to create their an account with the app.
+                </p>
+
+                <p>
+                    I mainly worked on the forms in this project. The checking of fields inputted and 
+                    the POST function that gets called upon entering the form. 
+                </p>
+                <img src={invoicify_create} alt="Create invoice page" style={{width:"100%"}}/>
+                <img src={invoicify_view} alt="View invoice page" style={{width:"100%"}}/>
+                <img src={invoicify_dashboard} alt="Dashboard page" style={{width:"100%"}}/>
+            </ProjectLink>
+
             <ProjectLink link={"https://github.com/FDIL501st/pet-adoption-401"}
                 display_name={"Pet adoption Site (Next.Js)"}
             >
@@ -46,10 +67,12 @@ const AllProjects = () => {
                     In a course group project, we made a site that 
                     can be used to browse pets and book an appointment to view them. 
                     We used fake pet data for showcasing the site. 
+                </p>
+                <p>
                     I worked on the backend. This included creating the MySQL database from the requirements we 
                     decided, and the functions for most pages that interacts with the database. 
                     The MySQL database exists on google cloud using credits, 
-                    so the site will not be working as I ran out of credits to keep the database isntance running.
+                    so the site will not be working as I ran out of credits to keep the database instance running.
                 </p>
                 <img src={pet_pursuit_home} alt="Pet Pursuit Home Page" style={{width:"100%"}}/>
             </ProjectLink>
