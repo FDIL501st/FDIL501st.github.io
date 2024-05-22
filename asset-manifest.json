@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccb22d4e.css",
-    "main.js": "/static/js/main.9cfb5c3f.js",
+    "main.js": "/static/js/main.24f51e08.js",
     "static/media/pet_pursuit_home.png": "/static/media/pet_pursuit_home.be538cb308f768bcc303.png",
     "static/media/rock_paper_scissors.png": "/static/media/rock_paper_scissors.f3d20cb971a50275db4d.png",
     "static/media/invoicify_view_invoice_70_zoom.png": "/static/media/invoicify_view_invoice_70_zoom.ab423e5f8fab92532582.png",
@@ -12,10 +12,10 @@
     "static/media/pf_calc.png": "/static/media/pf_calc.ebc4ab0d732297e6dbda.png",
     "index.html": "/index.html",
     "main.ccb22d4e.css.map": "/static/css/main.ccb22d4e.css.map",
-    "main.9cfb5c3f.js.map": "/static/js/main.9cfb5c3f.js.map"
+    "main.24f51e08.js.map": "/static/js/main.24f51e08.js.map"
   },
   "entrypoints": [
     "static/css/main.ccb22d4e.css",
-    "static/js/main.9cfb5c3f.js"
+    "static/js/main.24f51e08.js"
   ]
 }
