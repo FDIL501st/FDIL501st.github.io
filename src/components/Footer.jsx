@@ -4,8 +4,8 @@ import { footer_id } from '../shared/id'
 
 const Footer = () => {
     return (
-        <footer id={footer_id} className="w3-border-top w3-border-black">
-            <div className="w3-row w3-sand">
+        <footer id={footer_id} className="">
+            <div className="w3-row w3-black">
                 {/* Content on left side, 
                 small and medium window size take 4/12, 
                 large window size 2/12*/}
