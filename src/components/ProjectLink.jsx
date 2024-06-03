@@ -38,8 +38,11 @@ const ProjectLink = ({link, display_name, image, image_alt}) => {
 
     return (
         <>
-            <img src={image} alt={image_alt} className="" />
-            <Link to={link} className="w3-hover-text-orange">
+            <img src={image} alt={image_alt} 
+                style={{display: "block", maxWidth: "100%"}}
+                // change image size later
+            />
+            <Link to={link} className="w3-hover-text-orange" style={{display: "block"}}>
                 {display_name}
             </Link>
         </>
