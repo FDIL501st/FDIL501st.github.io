@@ -6,10 +6,16 @@ import Error404 from "./pages/404"
 import About from './pages/About';
 import PFCalc from "./pages/projects/PFCalc"
 import TicketBooking from "./pages/projects/TicketBooking"
+import RockPaperScissors from "./pages/projects/RockPaperScissors"
+import DiscordBot from "./pages/projects/DiscordBot"
+import PIC32 from "./pages/projects/PIC32"
+import Invoicify from "./pages/projects/Invoicify"
+import PetAdoption from "./pages/projects/PetAdoption"
 import NavBar from "./components/NavBar";
 import Scroll from "./components/Scroll/Scroll";
 import Footer from "./components/Footer";
-import { home, about, pf_dmg_calc, ticket_booking } from './shared/path';
+import { home, about, pf_dmg_calc, ticket_booking, rock_paper_scissors, 
+    pic_32_light, discord_bot, invoicify, pet_adoption_site } from './shared/path';
 
 function App() {
     return (
@@ -19,12 +25,19 @@ function App() {
 
             {/* Define all possible routes in the app */}
             <Routes>
+                {/* Navbar routes */}
                 <Route path={home} element={<Home/>} />
                 <Route path={about} element={<About/>} />
 
                 {/* Project routes */}
                 <Route path={pf_dmg_calc} element={<PFCalc/>} />
-                <Route path={ticket_booking} element={<TicketBooking/>}/>
+                <Route path={ticket_booking} element={<TicketBooking/>} />
+                <Route path={rock_paper_scissors} element={<RockPaperScissors/>} />
+                <Route path={discord_bot} element={<DiscordBot/>} />
+                <Route path={pic_32_light} element={<PIC32/>} />
+                <Route path={invoicify} element={<Invoicify/>} />
+                <Route path={pet_adoption_site} element={<PetAdoption/>} />
+
                 {/* Anything else throws a 404 */}
                 <Route path="*" element={<Error404/>} />
             </Routes>

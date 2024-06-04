@@ -1,3 +1,7 @@
+import GitHubLink from "../../components/GitHubLink"
+
+import "../../w3.css"
+
 const TicketBooking = () => {
     return (
         <div className="w3-content">
@@ -6,7 +10,7 @@ const TicketBooking = () => {
                 I worked on the backend, meaning the functions to access the MySQL database we had  
                 running on our local machines.
             </p>
-            <a href="https://github.com/FDIL501st/ENSF480-GR31-TermProject" style={{display: "block"}}>Link to GitHub</a>
+            <GitHubLink link="https://github.com/FDIL501st/ENSF480-GR31-TermProject" />
         </div>
     )
 }

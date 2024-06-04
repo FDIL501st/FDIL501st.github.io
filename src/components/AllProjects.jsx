@@ -35,10 +35,11 @@ class ProjectLinkParam {
     }
 }
 
-
+// a react component to display each row
+// hard coded to have 3 columns
 const ProjectRow = ({projectLinkRowParams}) => {
     return (
-        <div className="w3-row">
+        <div className="w3-row w3-padding-16">
             {projectLinkRowParams.map((projectLinkParam) => {
                 return (
                     // row has 3 columns, so use w3-third
@@ -70,7 +71,7 @@ const AllProjects = () => {
     
     // now we make another array of arrays, each sub array has 3 elements (at most)
     // so we have an array to use for our return/ProjectRow
-    const num_col = 3
+    const num_col = 3   // if updating this, also update ProjectRow component implementation above
     const rowParams = []
     for (let i = 0; i < projectLinkParams.length; i += num_col) {
         const rowParam = projectLinkParams.slice(i, i+num_col)
@@ -83,9 +84,6 @@ const AllProjects = () => {
             {rowParams.map((rowParam) => {
                 return <ProjectRow projectLinkRowParams={rowParam} />
             })}
-
-            {/* Need to add padding below each row, 
-            rows are too close to each other from a height perspective */}
 
             {/* <br/>
 
