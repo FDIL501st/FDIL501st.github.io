@@ -38,7 +38,7 @@ function App() {
                 <Route path={invoicify} element={<Invoicify/>} />
                 <Route path={pet_adoption_site} element={<PetAdoption/>} />
 
-                {/* Anything else throws a 404 */}
+                {/* Anything else throws a 404 error*/}
                 <Route path="*" element={<Error404/>} />
             </Routes>
             

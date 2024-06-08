@@ -5,6 +5,8 @@ import { pf_dmg_calc, ticket_booking, rock_paper_scissors,
 import bot from '../images/discord_bot.png'
 import pet_pursuit_home from '../images/pet_pursuit_home.png'
 import pf_calc from '../images/pf_calc.png'
+import nextcord_logo from '../images/nextcord_logo.svg'
+import pet_pursuit_about from "../images/pet_pursuit_about.png"
 import rock_paper_scissor from '../images/rock_paper_scissors.png'
 import invoicify_dashboard from '../images/invoicify_dashboard.png'
 import invoicify_create from '../images/invoicify_create_invoice_60_zoom.png'
@@ -62,11 +64,11 @@ const AllProjects = () => {
     projectLinkParams.push(
         new ProjectLinkParam(pf_dmg_calc, "Phantom Forces Ranges Calculator(Python)", pf_calc, "Damage Calculator Menu"),
         new ProjectLinkParam(ticket_booking, "Movie Ticket booking system (Java)"),
-        new ProjectLinkParam(rock_paper_scissors, "Rock Paper Scissors (Python + tkinter)"),
+        new ProjectLinkParam(rock_paper_scissors, "Rock Paper Scissors (Python + tkinter)", rock_paper_scissor, "Game view"),
         new ProjectLinkParam(pic_32_light, "A PIC32 project for light  (C + Python)"),
-        new ProjectLinkParam(discord_bot, "A discord bot (Python)"),
+        new ProjectLinkParam(discord_bot, "A discord bot (Python)", nextcord_logo, "Nextcord Logo"),
         new ProjectLinkParam(invoicify, "Invoicify (React + nodeJs)"),
-        new ProjectLinkParam(pet_adoption_site, "Pet adoption Site (Next.Js)")
+        new ProjectLinkParam(pet_adoption_site, "Pet adoption Site (Next.Js)", pet_pursuit_about, "Pet Pursuit About")
     )
     
     // now we make another array of arrays, each sub array has 3 elements (at most)
