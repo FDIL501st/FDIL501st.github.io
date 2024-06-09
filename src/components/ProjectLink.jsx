@@ -38,9 +38,9 @@ const ProjectLink = ({link, display_name, image, image_alt}) => {
 
     return (
         <>
-            <img src={image} alt={image_alt} className="w3-padding"
-                style={{display: "block", marginLeft: "auto", marginRight: "auto", maxHeight: "150px"}}
-                // combination of display block and left, right margins auto centers the image
+            <img src={image} alt={image_alt} 
+                style={{display: "block", margin: "auto", maxHeight: "150px", paddingBottom: "16px"}}
+                // block display with margins auto centers the image
                 
                 // change image size later
             />

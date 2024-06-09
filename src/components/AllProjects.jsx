@@ -9,8 +9,6 @@ import nextcord_logo from '../images/nextcord_logo.svg'
 import pet_pursuit_about from "../images/pet_pursuit_about.png"
 import rock_paper_scissor from '../images/rock_paper_scissors.png'
 import invoicify_dashboard from '../images/invoicify_dashboard.png'
-import invoicify_create from '../images/invoicify_create_invoice_60_zoom.png'
-import invoicify_view from '../images/invoicify_view_invoice_70_zoom.png'
 
 import '../w3.css'
 
@@ -67,7 +65,7 @@ const AllProjects = () => {
         new ProjectLinkParam(rock_paper_scissors, "Rock Paper Scissors (Python + tkinter)", rock_paper_scissor, "Game view"),
         new ProjectLinkParam(pic_32_light, "A PIC32 project for light  (C + Python)"),
         new ProjectLinkParam(discord_bot, "A discord bot (Python)", nextcord_logo, "Nextcord Logo"),
-        new ProjectLinkParam(invoicify, "Invoicify (React + nodeJs)"),
+        new ProjectLinkParam(invoicify, "Invoicify (React + nodeJs)", invoicify_dashboard, "Invoicify Dashboard"),
         new ProjectLinkParam(pet_adoption_site, "Pet adoption Site (Next.Js)", pet_pursuit_about, "Pet Pursuit About")
     )
     

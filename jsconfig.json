@@ -7,13 +7,6 @@
         "allowImportingTsExtensions": true,
         "strictNullChecks": true,
         "strictFunctionTypes": true,
-
-        "paths": {
-            "@/*": ["./src/*"],
-            "@public/*": ["./public/*"],
-            "@images/*": ["./src/images/*"]
-        }
-        // so paths not working in vscode
     },
     "exclude": [
         "node_modules",
