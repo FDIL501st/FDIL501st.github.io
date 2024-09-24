@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccb22d4e.css",
-    "main.js": "/static/js/main.d76cf912.js",
+    "main.js": "/static/js/main.2c3e0b44.js",
     "static/media/pet_pursuit_home.png": "/static/media/pet_pursuit_home.be538cb308f768bcc303.png",
     "static/media/pet-pursuit.png": "/static/media/pet-pursuit.8cb2f6a1000c20ce84f3.png",
     "static/media/pet_pursuit_booking.png": "/static/media/pet_pursuit_booking.abcd22527cfa57c09535.png",
@@ -16,10 +16,10 @@
     "static/media/nextcord_logo.svg": "/static/media/nextcord_logo.e4db2f980163e7f1071db1459a75e996.svg",
     "index.html": "/index.html",
     "main.ccb22d4e.css.map": "/static/css/main.ccb22d4e.css.map",
-    "main.d76cf912.js.map": "/static/js/main.d76cf912.js.map"
+    "main.2c3e0b44.js.map": "/static/js/main.2c3e0b44.js.map"
   },
   "entrypoints": [
     "static/css/main.ccb22d4e.css",
-    "static/js/main.d76cf912.js"
+    "static/js/main.2c3e0b44.js"
   ]
 }
