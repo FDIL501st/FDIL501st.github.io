@@ -5,7 +5,7 @@ import { footer_id } from '../shared/id'
 const Footer = () => {
     return (
         <footer id={footer_id} className="w3-black"
-            style={{borderTop: "2px solid black", marginTop: "16px"}}>
+            style={{borderTop: "2px solid black", marginTop: "auto"}}>
                 {/* Need to figure out how to make footer longer, so for shorter pages there is no whitespace on bottom */}
             <div className="w3-row">
                 {/* Content on left side, 
