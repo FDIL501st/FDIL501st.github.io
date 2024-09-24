@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.ccb22d4e.css",
-    "main.js": "/static/js/main.eb57a446.js",
-    "static/js/453.dad2196a.chunk.js": "/static/js/453.dad2196a.chunk.js",
+    "main.js": "/static/js/main.afba1e90.js",
     "static/media/pet_pursuit_home.png": "/static/media/pet_pursuit_home.be538cb308f768bcc303.png",
+    "static/media/pet-pursuit.png": "/static/media/pet-pursuit.8cb2f6a1000c20ce84f3.png",
+    "static/media/pet_pursuit_booking.png": "/static/media/pet_pursuit_booking.abcd22527cfa57c09535.png",
     "static/media/rock_paper_scissors.png": "/static/media/rock_paper_scissors.f3d20cb971a50275db4d.png",
+    "static/media/invoicify_view_invoice_70_zoom.png": "/static/media/invoicify_view_invoice_70_zoom.ab423e5f8fab92532582.png",
+    "static/media/invoicify_dashboard.png": "/static/media/invoicify_dashboard.e9c0762ad0ecdeeebbe9.png",
+    "static/media/pet_pursuit_about.png": "/static/media/pet_pursuit_about.cd2c5c0f30133ec2bb7f.png",
+    "static/media/invoicify_create_invoice_60_zoom.png": "/static/media/invoicify_create_invoice_60_zoom.3844b131ae2de0bfeccc.png",
     "static/media/pf_calc_result.png": "/static/media/pf_calc_result.4165aaf985f12e28683f.png",
     "static/media/discord_bot.png": "/static/media/discord_bot.f394bef8d0b78e4eb84c.png",
     "static/media/pf_calc.png": "/static/media/pf_calc.ebc4ab0d732297e6dbda.png",
+    "static/media/nextcord_logo.svg": "/static/media/nextcord_logo.d9d7a80ceeb134aeb0d09ee1fb126b6e.svg",
     "index.html": "/index.html",
     "main.ccb22d4e.css.map": "/static/css/main.ccb22d4e.css.map",
-    "main.eb57a446.js.map": "/static/js/main.eb57a446.js.map",
-    "453.dad2196a.chunk.js.map": "/static/js/453.dad2196a.chunk.js.map"
+    "main.afba1e90.js.map": "/static/js/main.afba1e90.js.map"
   },
   "entrypoints": [
     "static/css/main.ccb22d4e.css",
-    "static/js/main.eb57a446.js"
+    "static/js/main.afba1e90.js"
   ]
 }
