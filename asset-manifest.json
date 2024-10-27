@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ccb22d4e.css",
-    "main.js": "/static/js/main.afba1e90.js",
+    "main.js": "/static/js/main.b69730cd.js",
     "static/media/pet_pursuit_home.png": "/static/media/pet_pursuit_home.be538cb308f768bcc303.png",
     "static/media/pet-pursuit.png": "/static/media/pet-pursuit.8cb2f6a1000c20ce84f3.png",
     "static/media/pet_pursuit_booking.png": "/static/media/pet_pursuit_booking.abcd22527cfa57c09535.png",
@@ -12,14 +12,18 @@
     "static/media/invoicify_create_invoice_60_zoom.png": "/static/media/invoicify_create_invoice_60_zoom.3844b131ae2de0bfeccc.png",
     "static/media/pf_calc_result.png": "/static/media/pf_calc_result.4165aaf985f12e28683f.png",
     "static/media/discord_bot.png": "/static/media/discord_bot.f394bef8d0b78e4eb84c.png",
+    "static/media/letter_match_practice.png": "/static/media/letter_match_practice.c2542b5cef62a62920fe.png",
     "static/media/pf_calc.png": "/static/media/pf_calc.ebc4ab0d732297e6dbda.png",
+    "static/media/letter_match_easy.png": "/static/media/letter_match_easy.ccba820fed7d31128b65.png",
+    "static/media/letter_match_hard.png": "/static/media/letter_match_hard.944e060c66e3b5675f15.png",
+    "static/media/letter_match_home.png": "/static/media/letter_match_home.e713c30bae01d1d82d31.png",
     "static/media/nextcord_logo.svg": "/static/media/nextcord_logo.d9d7a80ceeb134aeb0d09ee1fb126b6e.svg",
     "index.html": "/index.html",
     "main.ccb22d4e.css.map": "/static/css/main.ccb22d4e.css.map",
-    "main.afba1e90.js.map": "/static/js/main.afba1e90.js.map"
+    "main.b69730cd.js.map": "/static/js/main.b69730cd.js.map"
   },
   "entrypoints": [
     "static/css/main.ccb22d4e.css",
-    "static/js/main.afba1e90.js"
+    "static/js/main.b69730cd.js"
   ]
 }
