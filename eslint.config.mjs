@@ -5,7 +5,7 @@ import pluginReactConfig from "eslint-plugin-react/configs/recommended.js";
 
 const configurations = [
   {files: ["**/*.js"], 
-  languageOptions: {sourceType: "commonjs"}},
+  languageOptions: {sourceType: "ESNext"}},
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
   pluginReactConfig

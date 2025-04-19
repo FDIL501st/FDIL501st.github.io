@@ -1,5 +1,7 @@
 import './Scroll.css';
 import '../../w3.css'
+import '../../catppuccin.css';
+
 import { nav_id, footer_id } from '../../shared/id';
 
 // scroll functions assume that navbar and footer exists on the page 
@@ -19,14 +21,16 @@ const Scroll = () => {
 
     return (
         <div className="Scroll">
-            <button className="Scroll w3-button w3-circle w3-light-gray w3-hover-dark-gray" 
+            {/* w3-button forces color of background and text to be inheriteed by parent element,
+            thus overlay0 and subtext1 doesn't seem to have an effect */}
+            <button className="Scroll overlay0 subtext1 w3-button w3-circle  w3-hover-dark-gray" 
             onClick={toTop}
             // rotate to make > point up
             style={{rotate: "-90deg", WebkitTransform: "-90deg"}}>
                 &gt;
             </button>
             
-            <button className="Scroll w3-button w3-circle w3-light-gray w3-hover-dark-gray" 
+            <button className="Scroll w3-button w3-circle overlay0 subtext1 w3-hover-dark-gray" 
             onClick={toBottom}
             // rotate to make > point down
             style={{rotate: "90deg", WebkitTransform: "90deg"}}>

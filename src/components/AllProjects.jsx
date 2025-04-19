@@ -40,10 +40,10 @@ class ProjectLinkParam {
 const ProjectRow = ({projectLinkRowParams}) => {
     return (
         <div className="w3-row w3-padding-16">
-            {projectLinkRowParams.map((projectLinkParam) => {
+            {projectLinkRowParams.map((projectLinkParam, index) => {
                 return (
                     // row has 3 columns, so use w3-third
-                    <div className="w3-third w3-container">
+                    <div className="w3-third w3-container" key={index}>
                     <ProjectLink link={projectLinkParam.link} 
                         display_name={projectLinkParam.display_name}
                         image={projectLinkParam.image}
@@ -82,8 +82,8 @@ const AllProjects = () => {
 
     return (
         <>
-            {rowParams.map((rowParam) => {
-                return <ProjectRow projectLinkRowParams={rowParam} />
+            {rowParams.map((rowParam, index) => {
+                return <ProjectRow projectLinkRowParams={rowParam} key={index}/>
             })}
         </>
     )

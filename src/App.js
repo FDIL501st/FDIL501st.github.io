@@ -1,4 +1,5 @@
 import './App.css'
+import './catppuccin.css'
 
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -22,7 +23,7 @@ import { home, about, pf_dmg_calc, ticket_booking, rock_paper_scissors,
 function App() {
     return (
         // default of all pages is pale-blue
-        <div className="App w3-pale-blue" style={{display: "flex", flexDirection: 'column', minHeight: "100vh"}}>
+        <div className="App base text" style={{display: "flex", flexDirection: 'column', minHeight: "100vh"}}>
   
             <NavBar />
  
