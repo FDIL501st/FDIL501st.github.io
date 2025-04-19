@@ -19,13 +19,13 @@ const Footer = () => {
                     <p>FDIL, 2024</p>
 
                     <a href="https://github.com/FDIL501st/FDIL501st.github.io/tree/page-dev" 
-                        className="w3-hover-text-indigo"
+                        className="hover-text-red"
                         >
                         Source Code
                     </a>
                     <br />
                     <a href="https://github.com/FDIL501st/FDIL501st.github.io/tree/gh-pages" 
-                        className="w3-hover-text-indigo"
+                        className="hover-text-red"
                         >
                         Deployment Branch
                     </a>

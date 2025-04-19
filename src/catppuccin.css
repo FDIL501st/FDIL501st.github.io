@@ -13,9 +13,15 @@
 .mauve {
     background-color: #cba6f7;
 }
+.text-mauve, .hover-text-mauve:hover {
+    color: #cba6f7;
+}
 
 .red {
     background-color: #f38ba8;
+}
+.text-red, .hover-text-red:hover {
+    color: #f38ba8;
 }
 
 .maroon {
@@ -49,24 +55,27 @@
 .blue {
     background-color: #89b4fa;
 }
+.text-blue, .hover-text-blue:hover {
+    color: #89b4fa;
+}
 
 .lavender {
     background-color: #b4befe;
 }
 
-.text {
+.text, .hover-text:hover {
     color: #cdd6f4;
 }
 
-.subtext1 {
+.subtext1, .hover-subtext1:hover {
     color: #bac2de;
 }
 
-.subtext0 {
+.subtext0, .hover-subtext0:hover {
     color: #a6adc8;
 }
 
-.overlay2 {
+.overlay2, .hover-overlay2:hover {
     background-color: #9399b2;
 }
 
@@ -78,7 +87,7 @@
     background-color: #6c7086;
 }
 
-.surface2{
+.surface2, .hover-surface2:hover {
     background-color: #585b70;
 } 
 
