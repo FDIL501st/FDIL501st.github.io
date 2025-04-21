@@ -9,6 +9,7 @@ import nextcord_logo from '../images/nextcord_logo.svg'
 import pet_pursuit_about from "../images/pet_pursuit_about.png"
 import rock_paper_scissor from '../images/rock_paper_scissors.png'
 import invoicify_dashboard from '../images/invoicify_dashboard.png'
+import no_image from '../images/no_image.png'
 
 import '../w3.css'
 
@@ -26,7 +27,7 @@ class ProjectLinkParam {
 
         // default if no image provided
         else {
-            this.image = null
+            this.image = no_image
             this.image_alt = "No Image"
         }
 
@@ -43,7 +44,7 @@ const ProjectRow = ({projectLinkRowParams}) => {
             {projectLinkRowParams.map((projectLinkParam, index) => {
                 return (
                     // row has 3 columns, so use w3-third
-                    <div className="w3-third w3-container" key={index}>
+                    <div className="w3-third w3-panel" key={index}>
                     <ProjectLink link={projectLinkParam.link} 
                         display_name={projectLinkParam.display_name}
                         image={projectLinkParam.image}

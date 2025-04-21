@@ -38,9 +38,9 @@ const ProjectLink = ({link, display_name, image, image_alt}) => {
     // )
 
     return (
-        <div className="surface1" style={{height: "200px"}}>
+        <div className="surface1 w3-round-xlarge" style={{height: "200px"}}>
             <img src={image} alt={image_alt} 
-                style={{display: "block", margin: "auto", maxHeight: "150px", paddingBottom: "16px"}}
+                style={{display: "block", margin: "auto", maxHeight: "150px", maxWidth: "250px", paddingBottom: "16px", paddingTop: "16px"}}
                 // block display with margins auto centers the image
                 
                 // change image size later

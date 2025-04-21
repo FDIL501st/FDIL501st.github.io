@@ -9,13 +9,12 @@ const Footer = () => {
         <footer id={footer_id} className="mantle"
         // borderTop: "2px solid black"
             style={{borderTop: "", marginTop: "auto"}}>
-                {/* Need to figure out how to make footer longer, so for shorter pages there is no whitespace on bottom */}
             <div className="w3-row">
                 {/* Content on left side, 
                 small and medium window size take 4/12, 
-                large window size 2/12*/}
+                large window size 3/12*/}
 
-                <div className="w3-container w3-col s4 l2">
+                <div className="w3-container w3-col s4 l3">
                     <p>FDIL, 2024</p>
 
                     <a href="https://github.com/FDIL501st/FDIL501st.github.io/tree/page-dev" 
@@ -23,14 +22,22 @@ const Footer = () => {
                         >
                         Source Code
                     </a>
-                    <br />
+                    <br/>
                     <a href="https://github.com/FDIL501st/FDIL501st.github.io/tree/gh-pages" 
                         className="hover-text-red"
                         >
                         Deployment Branch
                     </a>
                 </div>
-
+                <div className="w3-container w3-col s4 l3">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <a href="https://www.flaticon.com/free-icons/no-photo" title="no photo icons"
+                        className="hover-text-red">
+                    No photo icons created by yaicon - Flaticon
+                    </a>
+                </div>
             </div>
         </footer>
     )
