@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.424947e1.css",
-    "main.js": "/static/js/main.ae2a51f0.js",
+    "main.css": "/static/css/main.8c9ae366.css",
+    "main.js": "/static/js/main.2d8b3dc7.js",
     "static/media/pet_pursuit_home.png": "/static/media/pet_pursuit_home.be538cb308f768bcc303.png",
     "static/media/pet-pursuit.png": "/static/media/pet-pursuit.8cb2f6a1000c20ce84f3.png",
     "static/media/pet_pursuit_booking.png": "/static/media/pet_pursuit_booking.abcd22527cfa57c09535.png",
@@ -17,13 +17,13 @@
     "static/media/letter_match_easy.png": "/static/media/letter_match_easy.ccba820fed7d31128b65.png",
     "static/media/letter_match_hard.png": "/static/media/letter_match_hard.944e060c66e3b5675f15.png",
     "static/media/letter_match_home.png": "/static/media/letter_match_home.e713c30bae01d1d82d31.png",
-    "static/media/nextcord_logo.svg": "/static/media/nextcord_logo.d9d7a80ceeb134aeb0d09ee1fb126b6e.svg",
+    "static/media/nextcord_logo.svg": "/static/media/nextcord_logo.e4db2f980163e7f1071db1459a75e996.svg",
     "index.html": "/index.html",
-    "main.424947e1.css.map": "/static/css/main.424947e1.css.map",
-    "main.ae2a51f0.js.map": "/static/js/main.ae2a51f0.js.map"
+    "main.8c9ae366.css.map": "/static/css/main.8c9ae366.css.map",
+    "main.2d8b3dc7.js.map": "/static/js/main.2d8b3dc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.424947e1.css",
-    "static/js/main.ae2a51f0.js"
+    "static/css/main.8c9ae366.css",
+    "static/js/main.2d8b3dc7.js"
   ]
 }
