@@ -19,3 +19,5 @@ export const pet_adoption_site = "/pet_adoption"
 export const discord_bot = "/discord_bot"
 
 export const arabic_letter_card_game = "/arabic_letter_card_game"
+
+export const relit = "/relit"

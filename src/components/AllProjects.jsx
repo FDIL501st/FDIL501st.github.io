@@ -1,6 +1,6 @@
 import ProjectLink from './ProjectLink';
 import { pf_dmg_calc, ticket_booking, rock_paper_scissors, 
-    pic_32_light, discord_bot, invoicify, pet_adoption_site, arabic_letter_card_game } from '../shared/path';
+    pic_32_light, discord_bot, invoicify, pet_adoption_site, arabic_letter_card_game, relit } from '../shared/path';
 
 import bot from '../images/discord_bot.png'
 import pet_pursuit_home from '../images/pet_pursuit_home.png'
@@ -68,7 +68,8 @@ const AllProjects = () => {
         new ProjectLinkParam(discord_bot, "A discord bot (Python)", nextcord_logo, "Nextcord Logo"),
         new ProjectLinkParam(invoicify, "Invoicify (React + nodeJs)", invoicify_dashboard, "Invoicify Dashboard"),
         new ProjectLinkParam(pet_adoption_site, "Pet adoption Site (Next.Js)", pet_pursuit_about, "Pet Pursuit About"),
-        new ProjectLinkParam(arabic_letter_card_game, "Arabic Letter Card Game")
+        new ProjectLinkParam(arabic_letter_card_game, "Arabic Letter Card Game"),
+        new ProjectLinkParam(relit, "Relit")
     )
     
     // now we make another array of arrays, each sub array has 3 elements (at most)

@@ -24,17 +24,13 @@ const Scroll = () => {
             {/* w3-button forces color of background and text to be inheriteed by parent element,
             thus overlay0 and subtext1 doesn't seem to have an effect */}
             <button className="Scroll overlay0 subtext1 w3-button w3-circle hover-surface2" 
-            onClick={toTop}
-            // rotate to make > point up
-            style={{rotate: "-90deg", WebkitTransform: "-90deg"}}>
-                &gt;
+            onClick={toTop}>
+                &uarr;
             </button>
             
             <button className="Scroll w3-button w3-circle surface0 subtext1 hover-surface2" 
-            onClick={toBottom}
-            // rotate to make > point down
-            style={{rotate: "90deg", WebkitTransform: "90deg"}}>
-                &gt;
+            onClick={toBottom}>
+                &darr;
             </button>
             
         </div>

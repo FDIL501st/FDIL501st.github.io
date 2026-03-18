@@ -16,10 +16,10 @@ button.Scroll {
     /* custom padding to make circle compact */
     font-size: large;
 
-    padding-top: 5px;
+    /* padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 10px; */
     /* the padding directions seems to also rotate due to rotation of element 
     so these are the values we get with are some trial and error for this font-size */
 
