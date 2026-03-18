@@ -1,6 +1,6 @@
 import ProjectLink from './ProjectLink';
 import { pf_dmg_calc, ticket_booking, rock_paper_scissors, 
-    pic_32_light, discord_bot, invoicify, pet_adoption_site, arabic_letter_card_game } from '../shared/path';
+    pic_32_light, discord_bot, invoicify, pet_adoption_site, arabic_letter_card_game, relit } from '../shared/path';
 
 import bot from '../images/discord_bot.png'
 import pet_pursuit_home from '../images/pet_pursuit_home.png'
@@ -9,6 +9,7 @@ import nextcord_logo from '../images/nextcord_logo.svg'
 import pet_pursuit_about from "../images/pet_pursuit_about.png"
 import rock_paper_scissor from '../images/rock_paper_scissors.png'
 import invoicify_dashboard from '../images/invoicify_dashboard.png'
+import no_image from '../images/no_image.png'
 
 import '../w3.css'
 
@@ -26,7 +27,7 @@ class ProjectLinkParam {
 
         // default if no image provided
         else {
-            this.image = null
+            this.image = no_image
             this.image_alt = "No Image"
         }
 
@@ -40,10 +41,10 @@ class ProjectLinkParam {
 const ProjectRow = ({projectLinkRowParams}) => {
     return (
         <div className="w3-row w3-padding-16">
-            {projectLinkRowParams.map((projectLinkParam) => {
+            {projectLinkRowParams.map((projectLinkParam, index) => {
                 return (
                     // row has 3 columns, so use w3-third
-                    <div className="w3-third w3-container">
+                    <div className="w3-third w3-panel" key={index}>
                     <ProjectLink link={projectLinkParam.link} 
                         display_name={projectLinkParam.display_name}
                         image={projectLinkParam.image}
@@ -67,7 +68,8 @@ const AllProjects = () => {
         new ProjectLinkParam(discord_bot, "A discord bot (Python)", nextcord_logo, "Nextcord Logo"),
         new ProjectLinkParam(invoicify, "Invoicify (React + nodeJs)", invoicify_dashboard, "Invoicify Dashboard"),
         new ProjectLinkParam(pet_adoption_site, "Pet adoption Site (Next.Js)", pet_pursuit_about, "Pet Pursuit About"),
-        new ProjectLinkParam(arabic_letter_card_game, "Arabic Letter Card Game")
+        new ProjectLinkParam(arabic_letter_card_game, "Arabic Letter Card Game"),
+        new ProjectLinkParam(relit, "Relit")
     )
     
     // now we make another array of arrays, each sub array has 3 elements (at most)
@@ -82,8 +84,8 @@ const AllProjects = () => {
 
     return (
         <>
-            {rowParams.map((rowParam) => {
-                return <ProjectRow projectLinkRowParams={rowParam} />
+            {rowParams.map((rowParam, index) => {
+                return <ProjectRow projectLinkRowParams={rowParam} key={index}/>
             })}
         </>
     )

@@ -1,4 +1,5 @@
 import './App.css'
+import './catppuccin.css'
 
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -12,17 +13,19 @@ import PIC32 from "./pages/projects/PIC32"
 import Invoicify from "./pages/projects/Invoicify"
 import PetAdoption from "./pages/projects/PetAdoption"
 import ArabicLetterCardGame from "./pages/projects/ArabicLetterCardGame"
+import Relit from "./pages/projects/Relit"
 import NavBar from "./components/NavBar";
 import Scroll from "./components/Scroll/Scroll";
 import Footer from "./components/Footer";
 import { home, about, pf_dmg_calc, ticket_booking, rock_paper_scissors, 
     pic_32_light, discord_bot, invoicify, pet_adoption_site, 
-    arabic_letter_card_game} from './shared/path';
+    arabic_letter_card_game,
+    relit} from './shared/path';
 
 function App() {
     return (
         // default of all pages is pale-blue
-        <div className="App w3-pale-blue" style={{display: "flex", flexDirection: 'column', minHeight: "100vh"}}>
+        <div className="App base text" style={{display: "flex", flexDirection: 'column', minHeight: "100vh"}}>
   
             <NavBar />
  
@@ -42,6 +45,7 @@ function App() {
                 <Route path={invoicify} element={<Invoicify/>} />
                 <Route path={pet_adoption_site} element={<PetAdoption/>} />
                 <Route path={arabic_letter_card_game} element={<ArabicLetterCardGame/>} />
+                <Route path={relit} element={<Relit/>} />
 
                 {/* Anything else throws a 404 error*/}
                 <Route path="*" element={<Error404/>} />
