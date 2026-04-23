@@ -17,8 +17,18 @@ const PetAdoption = () => {
             <p>
                 I worked on the backend. This included creating the MySQL database from the requirements we 
                 decided, and the functions for most pages that interacts with the database. 
+
+                I also worked on adding a session cookie that refreshes itself, 
+                so a person who is logged in stays logged even after leaving the site.
+            </p>
+
+            <p>
                 The MySQL database exists on google cloud using credits, 
-                so the site will not be working as I ran out of credits to keep the database instance running.
+                so the vercel site will not be working as I ran out of credits to keep the database instance running.
+
+                The other option I created a docker compose deployment to run the web app locally and interact with it.
+                All you have to do is download the project, and inside the project directory run docker compose up -d to get 
+                the web app running. This will get allow you to use the webapp in http://localhost:3000.
             </p>
 
             <GitHubLink link={"https://github.com/FDIL501st/pet-adoption-401"} />
